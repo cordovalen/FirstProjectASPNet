@@ -1,0 +1,33 @@
+@UserManagementAPI_HostAddress = http://localhost:5241
+
+### Obtener todos los usuarios
+GET {{UserManagementAPI_HostAddress}}/users
+Authorization: valid-token
+
+### Obtener un usuario por ID
+GET {{UserManagementAPI_HostAddress}}/users/3
+Authorization: valid-token
+
+### Agregar un nuevo usuario
+POST {{UserManagementAPI_HostAddress}}/users
+Content-Type: application/json
+Authorization: valid-token
+
+{
+  "name": "Charlie",
+  "email": "charlie@gmail.com"
+}
+
+### Actualizar un usuario existente
+PUT {{UserManagementAPI_HostAddress}}/users/1
+Content-Type: application/json
+Authorization: valid-token
+
+{
+  "name": "Alice Updated",
+  "email": "alice.updated@example.com"
+}
+
+### Eliminar un usuario por ID
+DELETE {{UserManagementAPI_HostAddress}}/users/3
+Authorization: valid-token

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "B1HW2yLrWoI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nast803828\\OneDrive - SIIGO SAS\\ProjectCopilot\\UserManagementAPI\\UserManagementAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nast803828\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\nast803828\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
